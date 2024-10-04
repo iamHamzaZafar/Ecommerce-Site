@@ -1,13 +1,13 @@
-
+import Navbar from './component/Navbar/Navbar';
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
-    <>
-      Hello g
-    </>
+    <div>
+        <Navbar />
+    </div>
 
   )
 }
